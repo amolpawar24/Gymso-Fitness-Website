@@ -1,0 +1,1966 @@
+/*!############################################################ UNIVERSAL PROPERTIES ##########################################################  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/*!############################################################ UNIVERSAL PROPERTIES ##########################################################  */
+/*! ***************************************************************** MAIN STARTS ***********************************************************  */
+/*? ************************************************************** HEADER STARTS *************************************************  */
+header{
+    height: 82px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+header:active{
+    cursor: all-scroll;
+}
+#AppLogo{
+    height: 60px;
+    width: 22%;
+    /* border: 1px solid; */
+}
+#AppLogo h1{
+    width: 98%;
+    color: white;
+    line-height: 50px;
+}
+
+
+nav{
+    height: 60px;
+    width: 45%;
+    /* border: 1px solid; */
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    height: 50PX;
+    width: 18%;
+    /* border: 1px solid; */
+    margin-left: 10px;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: red;
+    border-radius: 11px;
+}
+nav ul li a{ 
+    color: white;   
+    text-decoration: none;
+    line-height: 45px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.Social-Icons{
+    height: 60px;
+    width: 11%;
+    border: 1px solid;
+    
+}
+
+.Social-Icons a i{
+    color: white;
+    padding: 10px;
+    margin-left: 11px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.Social-Icons a i:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+/*? ************************************************************** HEADER ENDS *************************************************  */
+/*? ************************************************************** HOME STARTS *************************************************  */
+#Home{
+    height: 1170px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+#Home .Containers{
+    width: 100%;
+    /* border: 1px solid; */
+}
+#Home #HomeContainer1{
+    /* linear-gradient(to bottom,rgba(69, 69, 69, 0.395),rgba(64, 63, 63, 0.466),rgba(56, 56, 56, 0.91)),  */
+    background-image: url(../../ASSETS/IMAGES/hero-bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 724px;
+    filter: brightness(50%);
+    filter: contrast(77%);
+    filter: saturate(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#HomeContainer1 #HomeBox1{
+    height: 350px;
+    width: 45%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#HomeBox1 .HomeBox1Content{
+    width: 92%;
+
+}
+
+.HomeBox1Content p{
+    font-size: 30px;
+    color: rgb(49, 49, 49);
+    font-weight: 400;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.749);
+}
+.HomeBox1Content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+.HomeBox1Content input{
+    height: 65px;
+    width: 28%;
+    margin-left: 3%;
+}
+.HomeBox1Content input:nth-child(1){
+    color: white;
+    /* border: none; */
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    border-width: 4px;
+    animation: anim1 4s linear infinite;
+    perspective: 100;
+    transition: all 2s linear;
+}
+@keyframes anim1 {
+    0%{
+        border-color: transparent white ;
+        transform-style: preserve-3d;
+    }
+    100%{
+        border-color: white transparent;
+    }
+    
+}
+.HomeBox1Content input:nth-child(2){
+    border-width: 4px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    perspective: 100;
+    animation: anim2 2s linear infinite;
+
+}
+@keyframes anim2 {
+    0%{
+        border-color: transparent red transparent red;
+        transform-style: preserve-3d;
+    }
+    100%{
+        border-color: red transparent red transparent;
+    }
+    
+}
+.HomeBox1Content input:nth-child(1):hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+.HomeBox1Content input:nth-child(2):hover{
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+#TopUp{
+    height: 100px;
+    width: 110px;
+    /* border: 1px solid; */
+    border-radius: 50%;  
+    position: fixed;
+    z-index: 5;
+    margin-left: 87%;
+    margin-top: 35%;
+}
+#TopUp img{
+    height: 100px;
+    width: 110px;
+    position: absolute;
+    scale: 1;
+    border-radius: 50%;
+}
+#Home #HomeContainer2{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 445px;
+    background-color: rgba(0, 0, 0, 0.933);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#HomeContainer2 .HomeContainerBox{
+    
+    border-top: none ;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+
+}
+
+
+#HomeContainer2Box1{
+    width: 52%;
+    height: 400px;
+}
+#HomeContainer2Box1 h1{
+    width: 55%;
+    height: 55px;
+    color: white;
+    font-size: 2.24rem;
+    text-align: start;
+    position: relative;
+    left: 22%;
+    margin-top: 3%;
+}
+#HomeContainer2Box1 h5{
+    width: 60%;
+    height: 70px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    position: relative;
+    left: 22%;
+    margin-top: 2%;
+}
+#HomeContainer2Box1 p{
+    position: relative;
+    width: 60%;
+    height: 100px;
+    margin-top: 2%;
+    left: 22%;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.749);
+}
+#HomeContainer2Box1 button{
+    height: 55px;
+    border: none;
+    color: white;
+    background-color: red;
+    position: relative;
+    left: 22%;
+    width: 60%;
+    margin-top: 2%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#HomeContainer2 #HomeContainer2Box2{
+    width:37% ;
+    height: 270px;
+    border-left: solid;
+    border-left-width: 3.55px;
+    border-left-color: rgb(49, 49, 49);
+    
+}
+
+#HomeContainer2Box2 h1{
+    height: 55px;
+    width: 44%;
+    color: white;
+    position: relative;
+    left: 20%;
+    margin-top: 2%;
+}
+#HomeContainer2Box2 h4{
+    color: white;
+    width: 24%;
+    position: relative;
+    left: 20%;
+    margin-top: 2.24%;
+}
+#HomeContainer2Box2 p{
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.749);
+    width: 35%;
+    position: relative;
+    left: 20%;
+    margin-top: 2%;
+}
+
+/*? ************************************************************** HOME ENDS *************************************************  */
+/*? ************************************************************** ABOUT US STARTS *************************************************  */
+#AboutUs{
+    height: 724px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-color: #eff6fae9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#AboutUs .AboutUsBoxes{
+    height: 450px;
+    /* border: 1px solid; */
+}
+#AboutUs #AboutUsBox1{
+    width: 37%;
+    
+}
+#AboutUsBox1 h1{
+    height: 65px;
+    width: 65%;
+    font-weight: 800;
+    margin-top: 7%;
+    position: relative;
+    left: 10%;
+}
+#AboutUsBox1 p{
+    width: 77%;
+    margin-top: 5%;
+    line-height: 25px;
+    position: relative;
+    left: 10%;
+    font-size: 20px;
+    color: rgba(63, 63, 63, 0.781);
+}
+#AboutUsBox1 p span{
+    color: rgba(0, 0, 0, 0.655);
+    font-weight: 600;
+}
+#AboutUsBox2{
+    width: 20%;
+}
+#AboutUsBox2Img{
+    height: 335px;
+    /* border: 1px solid; */
+    background-image: url(../../ASSETS/IMAGES/team-image.jpg);
+}
+.AboutUsBoxImages{
+    background-size: cover;
+    background-position: left center;
+}
+#AboutUsBox3{
+    width: 20%;
+}
+#AboutUsBox3Img{
+    height: 335px;
+    /* border: 1px solid; */
+    background-image: url(../../ASSETS/IMAGES/team-image01.jpg);
+}
+.AboutUsBoxContent{
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+.TrainerInfo{
+    width: 70%;
+    height: 95px;
+    /* border: 1px solid; */
+}
+.TrainerInfo h1{
+    width: 100%;
+    margin-top: 2%;
+    font-size: 2.24rem;
+    font-weight: 900;
+
+}
+.TrainerInfo p{
+    width: 100%;
+    margin-top: 2%;
+    color: rgb(65, 64, 64);
+    font-size: 18px;
+}
+.TrainerSocial-icons{
+    margin-top: 5%;
+    width: 11%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.TrainerSocial-icons a i{
+    font-size: 1.74rem;
+    color:dimgrey;
+}
+/*? ************************************************************** ABOUT  US ENDS *************************************************  */
+/*? ************************************************************** CLASSES STARTS *************************************************  */
+#Classes{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-color: #f8f3f3e1;
+}
+#Classes>p{
+    color: rgba(65, 64, 64, 0.859);
+    font-size: 20px;
+    width: 15%;
+    position: relative;
+    left: 45%;
+    top: 13%;
+    font-weight: 500;
+}
+#Classes>h1{
+    width: 24%;
+    position: relative;
+    left: 40%;
+    top: 15%;
+    font-weight: 800;
+}
+#Classes .Training{
+    width: 85%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+.Training .Class{
+    height: 400px;
+    width: 25.55%;
+    /* border: 1px solid; */
+    background-color: #fff;
+}
+.Class .ClassImg{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ClassImg1{
+    background-image: url(../../ASSETS/IMAGES/yoga-class.jpg);
+}
+#ClassImg2{
+    background-image: url(../../ASSETS/IMAGES/crossfit-class.jpg);
+}
+#ClassImg3{
+    background-image: url(../../ASSETS/IMAGES/cardio-class.jpg);
+}
+.Class .ClassInfo{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.ClassInfo .ClassAbout{
+    height: 74px;
+    width: 55%;
+
+    /* border: 1px solid; */
+}
+.Class .ClassInfo h1{
+    width: 50%;
+    margin-left: 5%;
+}
+.Class .ClassInfo p{
+    width: 55%;
+    color: rgba(65, 64, 64, 0.859);
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-weight: 700;
+    
+}
+
+.ClassInfo .Fees{
+    height: 55px;
+    width: 55px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Fees h3{
+    width: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.ClassContent P{
+    width: 76%;
+    font-size: 17px;
+    color: rgba(65, 64, 64, 0.951);
+    position: relative;
+    left: 9%;
+    margin-top: 5%;
+
+}
+
+/*? ************************************************************** CLASSES ENDS *************************************************  */
+/*? ************************************************************** SCHEDULES STARTS *************************************************  */
+#Schedules{
+    height: 700px;
+    width: 100%;
+    border: 1px solid;
+    background-color: rgb(31, 30, 30);
+}
+#Schedules #SchedulesPara{
+    font-size: 24px;
+    width: 22%;
+    text-shadow: 2px 3px black;
+    -webkit-text-fill-color: rgb(97, 95, 95);
+    margin: 2% auto auto 42%;
+}
+#Schedules table{
+    color: white;
+    /* border: 1px solid; */
+    margin: 3% auto;
+}
+
+#Schedules table h4{
+    text-align: center;
+}
+#Schedules table p{
+    font-size: 15px;
+    color: rgb(97, 95, 95);
+    margin-top: 3%;
+}
+#Schedules table th{
+    height: 55px;
+    background-color: red;
+}
+#Schedules td:nth-child(1)
+{
+    background-color: red;
+
+}
+#Schedules table td{
+    padding: 20px;
+    border: 0.1pt solid rgba(65, 64, 64, 0.951);
+    box-shadow: 2px 3px 4px black;
+}
+/*? ************************************************************** SCHEDULES ENDS *************************************************  */
+/*? ************************************************************** CONTACTS STARTS *************************************************  */
+#Contact{
+    height: 720px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+
+#ContactSection{
+    height: 650px;
+    width: 92%;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ContactSection .ContactContainers{
+    height: 500px;
+    width: 41%;
+    /* border: 1px solid; */
+}
+#ConConatainer1 h1{
+    width: 75%;
+    margin: 0 auto;
+}
+#ConConatainer1 form{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ConConatainer1 input{
+    height: 60px;
+    width: 74%;
+    border: 1px solid;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 4px;
+    outline: none;
+}
+#ConConatainer1 input::placeholder,textarea::placeholder{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 4%;
+}
+
+#ConConatainer1 textarea{
+    width: 74%;
+    height: 140px;
+    border: 1px solid;
+    border-radius: 2px;
+    overflow-x: hidden;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+#ConConatainer1 button{
+    width: 74%;
+    height: 55px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+
+}
+#ConConatainer2 h1{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#ConConatainer2 hr{
+    width: 77%;
+    margin: 0 auto;
+}
+#ConConatainer2 #Address{
+    height: 50px;
+    width: 74%;
+    /* border: 1px solid; */
+    color: rgb(97, 95, 95);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 4% auto;
+}
+#Address i{
+    color: orangered;
+    font-size: 18px;
+}
+
+#Map{
+    height: 350px;
+    width: 80%;
+    /* border: 1px solid; */
+    margin: 3% auto;
+}
+#Map iframe{
+    height: 324px;
+    width: 100%;
+}
+#Footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Footer #Copyright{
+    height: 74px;
+    width: 28%;
+    /* border: 1px solid; */
+}
+#Copyright p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(97, 95, 95);
+
+}
+#Footer #Mob{
+    height: 100px;
+    width: 34%;
+    /* border: 1px solid; */
+}
+#Mob span{
+    font-size: 20px;
+}
+#Mob span i{
+    color: red;
+}
+#Mob span:nth-child(2){
+    margin-left: 5%;
+}
+/*? ************************************************************** CONTACTS ENDS *************************************************  */
+
+/*! ***************************************************************** MAIN ENDS ***********************************************************  */
+/*! ***************************************************************** RESPONSIVE STARTS ***********************************************************  */
+/*? =========================================================== MAX 450px[ MOBILE ] STARTS ==================================================  */
+@media (max-width:450px){
+    nav,.Social-Icons{
+        display: none;
+    }
+    #AppLogo{
+        width:74%;
+        margin: 0 auto;
+    }
+    #AppLogo h1{
+        text-align: center;
+    }
+    #TopUp{
+        top: 50%;
+        left: -15%;
+    }
+    #Home{
+        height: 1200px;
+    }
+   
+    #HomeContainer1{
+       height: 200px;
+       display: block;
+    }
+
+    #HomeContainer1 #HomeBox1{
+        height: 200px;
+        width: 92%;
+        position: relative;
+        top: 5%;
+        display: inline-block;
+    }
+    .HomeBox1Content p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .HomeBox1Content h1{
+        font-size: 15px;
+        margin-top: 5%;
+    }
+
+    .HomeBox1Content input{
+        margin-top: 5%;
+        width: 45%;
+    }
+    
+    #HomeContainer2Box1{
+        display: inline-block;
+        height: 350px;
+        width: 55%;
+        margin-left: 4%;
+    }
+    #HomeContainer2Box1 h1{
+        width: 92%;
+        font-size: 15px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 h5{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 p{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 button{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2 #HomeContainer2Box2{
+        height: 200px;
+        width: 40%;
+    }
+    #HomeContainer2Box2 h1{
+        height: 25px;
+        width: 85%;
+        font-size: 15px;
+        position: relative;
+        left: 5%;
+    }
+    #HomeContainer2Box2 h4{
+        height: 25px;
+        width: 85%;
+        font-size: 15px;
+        position: relative;
+        left: 4%;
+    }
+    #HomeContainer2Box2 p{
+        height: 25px;
+        width: 85%;
+        font-size: 13px;
+        position: relative;
+        left: 4%;
+    }
+    #AboutUs{
+        height: 1000px;
+        width: 100%;
+        display: block;
+    }
+    #AboutUs #AboutUsBox1{
+        display: block;
+        width: 100%;
+        height: 290px;
+    }
+    #AboutUsBox1 h1{
+        width: 96%;
+        height: 35px;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        left: 3%;
+    }
+    #AboutUsBox1 p{
+        width: 96%;
+        height: 100px;
+        font-size: 17px;
+        text-align: center;
+        position: relative;
+        left: 3%;
+    }
+    #AboutUs .AboutUsBoxes{
+        height: 350px;
+        width: 100%;
+    }
+
+    #AboutUsBox2 .AboutUsBoxImages{
+        background-position: top center;
+        height: 250px;
+    }
+    #AboutUsBox3 .AboutUsBoxImages{
+        background-position: top center;
+
+        height: 250px;
+    }
+
+    .AboutUsBoxes .AboutUsBoxContent{
+        height: 100px;
+    }
+    #Classes{
+        height: 1090px;
+    }
+
+    #Classes p{
+        font-size: 13px;
+        width: 82%;
+        position: relative;
+        top: 3%;
+        left: 5%;
+        text-align: center;
+    }
+    #Classes h1{
+        font-size: 18px;
+        width: 82%;
+        position: relative;
+        top: 4%;
+        left: 5%;
+        text-align: center;
+    }
+    #Classes .Training{
+        height: 200px;
+        width: 100%;
+        display: block;
+        top: 5%;
+
+    }
+    .Training .Class{
+        height: 340px;
+        width: 100%;
+    }
+    .Class .ClassImg{
+        height: 200px;
+        background-position: top center;
+    }
+    .Class .ClassInfo{
+        align-items: center;
+    }
+    .ClassInfo .ClassAbout{
+        width: 65%;
+    }
+    .ClassAbout h1{
+        height: 35px;
+        width: 84%;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    #Yoga .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    #Aerobic .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    #Cardio .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    #Schedules{
+        height: 400px;
+        width: 100%;
+        margin-top: 15%;
+
+    }
+    #Schedules #SchedulesPara{
+        width: 55%;
+        height: 25px;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 24%;
+    
+    }
+    #Schedules table{
+        width: 100%;
+        scale: 0.90;
+        position: relative;
+        left: 0;
+        
+    }
+    #Schedules table h1{
+        width: 35%;
+        font-size: 15px;
+    }
+
+    #Schedules table h4{
+       text-align: start;
+    }
+    #Schedules table p{
+        font-size: 11px;
+    }
+    #Schedules table th,tr{
+        height: 15px;
+    }
+    #Schedules table td{
+        padding: 0px;
+    }
+
+    .ClassContent p{
+        margin-top: 2%;
+    }
+
+    #Contact{
+        height: 1250px;
+        width: 100%;
+    }
+    #Contact #ContactSection{
+        height: 1100px;
+        display: block;
+    }
+    #ContactSection .ContactContainers{
+        width: 100%;
+        margin-top: 5%;
+    }
+    #ContactSection #ConConatainer1{
+        height: 510px;
+    }
+    #ContactSection #ConConatainer2{
+        height: 530px;
+        margin-bottom: 5%;
+    }
+    #Footer{
+        height: 70px;
+        display: flex;
+    }
+    #Footer #Copyright{
+        width: 43%;
+        height: 40px;
+    }
+    #Copyright p{
+        font-size: 11px;
+    }
+    #Footer #Mob{
+        height: 30px;
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+    }
+    #Mob span{
+        font-size: 13px;
+        margin-top: 2%;
+    }
+}
+/*? =========================================================== MAX 450px[ MOBILE ] ENDS ==================================================  */
+
+/*? =========================================================== MIN-450px to Max-750px[ TABLET ] STARTS ==================================================  */
+@media (min-width:450px) and (max-width:750px){
+    nav,.Social-Icons{
+        display: none;
+    }
+    #AppLogo{
+        width:74%;
+        margin: 0 auto;
+    }
+    #AppLogo h1{
+        text-align: center;
+    }
+    #TopUp{
+        top: 50%;
+        left: -15%;
+    }
+    #Home{
+        height: 1200px;
+    }
+   
+    #HomeContainer1{
+       height: 200px;
+       display: block;
+    }
+
+    #HomeContainer1 #HomeBox1{
+        height: 200px;
+        width: 92%;
+        position: relative;
+        top: 5%;
+        display: inline-block;
+    }
+    .HomeBox1Content p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .HomeBox1Content h1{
+        font-size: 15px;
+        margin-top: 5%;
+    }
+
+    .HomeBox1Content input{
+        margin-top: 5%;
+        width: 45%;
+    }
+    #HomeContainer2Box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 350px;
+        width: 55%;
+        margin-left: 4%;
+    }
+    #HomeContainer2Box1 h1{
+        width: 92%;
+        font-size: 15px;
+        position: relative;
+        left: 0%;
+    }
+    #HomeContainer2Box1 h5{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 p{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 button{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2 #HomeContainer2Box2{
+        height: 200px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #HomeContainer2Box2 h1{
+        height: 25px;
+        width: 85%;
+        font-size: 15px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box2 h4{
+        height: 25px;
+        width: 85%;
+        font-size: 15px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box2 p{
+        height: 25px;
+        width: 85%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #AboutUs{
+        height: 770px;
+        width: 100%;
+        display: block;
+    }
+    #AboutUs #AboutUsBox1{
+        display: block;
+        width: 100%;
+        height: 290px;
+    }
+    
+    #AboutUsBox1 h1{
+        width: 45px;
+        width: 74%;
+        text-align: center;
+        font-size: 22px;
+    }
+    #AboutUsBox1 p{
+        width: 96%;
+        height: 100px;
+        font-size: 17px;
+        text-align: center;
+        position: relative;
+        left: 1%;
+        margin-top: 1%;
+    }
+    #AboutUs .AboutUsBoxes{
+        height: 450px;
+        width: 47%;
+        display: inline-block;
+        left: 2%;
+        margin-left: 2%;
+    }
+    #AboutUs .AboutUsBoxes .TrainerInfo h1{
+        font-size: 24px;
+    }
+
+    .TrainerSocial-icons{
+        margin-top: 2%;
+    }
+    #AboutUsBox2 .AboutUsBoxImages{
+        background-position: top center;
+        height: 300px;
+    }
+    #AboutUsBox3{
+        height: 400px;
+        margin-top: 5%;
+    }
+    #AboutUsBox3 .AboutUsBoxImages{
+        background-position: top center;
+        height: 300px;
+    }
+
+    .AboutUsBoxes .AboutUsBoxContent{
+        height: 100px;
+    }
+    #Classes{
+        height: 990px;
+    }
+
+    #Classes p{
+        font-size: 17px;
+        width: 82%;
+        position: relative;
+        top: 2%;
+        left: 9%;
+        text-align: center;
+    }
+    #Classes h1{
+        font-size: 24px;
+        width: 82%;
+        position: relative;
+        top: 4%;
+        left: 9%;
+        text-align: center;
+    }
+    #Classes .Training{
+        width: 100%;
+        display: block;
+        top: 5%;
+
+    }
+    .Training .Class{
+        height: 400px;
+        width: 45%;
+        display: inline-block;
+        margin-left: 2%;
+        left: 2%;
+    }
+    .Class .ClassImg{
+        height: 250px;
+        background-position: top center;
+    }
+    .Class .ClassInfo{
+        align-items: center;
+    }
+    .ClassInfo .ClassAbout{
+        width: 65%;
+    }
+    .ClassAbout h1{
+        height: 35px;
+        width: 84%;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    #Yoga .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    #Aerobic .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    #Cardio{
+        position: relative;
+        left: 28%;
+        margin-top: 4%;
+
+    }
+    #Cardio .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 5%;
+    }
+    #Schedules{
+        height: 480px;
+        width: 100%;
+        margin-top: 15%;
+
+    }
+    #Schedules #SchedulesPara{
+        width: 55%;
+        height: 25px;
+        text-align: center;
+        font-size: 18px;
+        margin-left: 24%;
+    
+    }
+    #Schedules table{
+        width: 100%;
+        scale: 1;
+        position: relative;
+        left: 0;
+        
+    }
+    #Schedules table h1{
+        width: 45%;
+        font-size: 21px;
+    }
+
+    #Schedules table h4{
+       text-align: center;
+    }
+    #Schedules table p{
+        font-size: 15px;
+    }
+    #Schedules table th,tr{
+        height: 20px;
+    }
+    #Schedules table td{
+        padding: 0px;
+    }
+
+    
+
+    #Contact{
+        height: 1350px;
+        width: 100%;
+    }
+    #Contact #ContactSection{
+        height: 1100px;
+        display: block;
+    }
+    #ContactSection .ContactContainers{
+        width: 100%;
+    }
+    #ContactSection #ConConatainer1{
+        height: 510px;
+    }
+    #ContactSection #ConConatainer2{
+        margin-top: 5%;
+        height: 520px;
+    }
+    #Footer{
+        height: 90px;
+        display: flex;
+    }
+    #Footer #Copyright{
+        width: 50%;
+        height: 65px;
+    }
+    #Copyright p{
+        font-size: 14px;
+    }
+    #Footer #Mob{
+        height: 65px;
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+    }
+    #Mob span{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+}
+/*? =========================================================== MIN-450px to Max-750px[ TABLET ] ENDS ==================================================  */
+
+/*? =========================================================== MIN-750px to Max-1024px[ LAPTOP ] STARTS ==================================================  */
+@media (min-width:750px) and (max-width:1024px){
+    nav,.Social-Icons{
+        display: none;
+    }
+    #AppLogo{
+        width:74%;
+        margin: 0 auto;
+    }
+    #AppLogo h1{
+        text-align: center;
+    }
+    #TopUp{
+        top: 40%;
+        left: -11%;
+    }
+    #Home{
+        height: 1200px;
+    }
+   
+    #HomeContainer1{
+       height: 500px;
+       display: flex;
+    }
+
+    #HomeContainer1 #HomeBox1{
+        height: 500px;
+        width: 92%;
+        position: relative;
+        top: 5%;
+        display: inline-block;
+    }
+    .HomeBox1Content p{
+        font-size: 28px;
+        width: 100%;
+    }
+    .HomeBox1Content h1{
+        font-size: 27px;
+        margin-top: 5%;
+    }
+
+    .HomeBox1Content input{
+        margin-top: 5%;
+        width: 45%;
+    }
+    #HomeContainer2Box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 350px;
+        width: 55%;
+    }
+    #HomeContainer2Box1 h1{
+        width: 92%;
+        font-size: 22px;
+        position: relative;
+        left: 0%;
+    }
+    #HomeContainer2Box1 h5{
+        width: 92%;
+        font-size: 22px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 p{
+        width: 92%;
+        font-size: 20px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 button{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2 #HomeContainer2Box2{
+        height: 250px;
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #HomeContainer2Box2 h1{
+        height: 30px;
+        width: 85%;
+        font-size: 22px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box2 h4{
+        height: 25px;
+        width: 85%;
+        font-size: 20px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box2 p{
+        height: 25px;
+        width: 85%;
+        font-size: 20px;
+        position: relative;
+        left: 0;
+    }
+    #AboutUs{
+        height: 770px;
+        width: 100%;
+        display: block;
+    }
+    #AboutUs #AboutUsBox1{
+        display: block;
+        width: 100%;
+        height: 290px;
+        margin-left: 0px;
+        left: 0;
+    }
+    
+    #AboutUsBox1 h1{
+        width: 74%;
+        text-align: center;
+    }
+    #AboutUsBox1 p{
+        width: 96%;
+        height: 100px;
+        font-size: 17px;
+        text-align: center;
+        position: relative;
+        left: 1%;
+        margin-top: 1%;
+    }
+    #AboutUs .AboutUsBoxes{
+        height: 400px;
+        width: 45%;
+        display: inline-block;
+        position: relative;
+        left: 2%;
+        margin-left: 2%;
+    }
+
+    .TrainerSocial-icons{
+        margin-top: 2%;
+    }
+    #AboutUsBox2 .AboutUsBoxImages{
+        background-position: top center;
+        height: 300px;
+    }
+    #AboutUsBox3{
+        height: 400px;
+        margin-top: 5%;
+    }
+    #AboutUsBox3 .AboutUsBoxImages{
+        background-position: top center;
+        height: 300px;
+    }
+
+    .AboutUsBoxes .AboutUsBoxContent{
+        height: 100px;
+    }
+    #Classes{
+        height: 1170px;
+    }
+
+    #Classes p{
+        font-size: 22px;
+        width: 82%;
+        position: relative;
+        top: 2%;
+        left: 9%;
+        text-align: center;
+    }
+    #Classes h1{
+        font-size: 30px;
+        width: 82%;
+        position: relative;
+        top: 4%;
+        left: 9%;
+        text-align: center;
+    }
+    #Classes .Training{
+        width: 100%;
+        display: inline-block;
+        top: 5%;
+
+    }
+    .Training .Class{
+        height: 450px;
+        width: 43%;
+        display: inline-block;
+        margin-left: 4%;
+    }
+    .Class .ClassImg{
+        height: 270px;
+        background-position: top center;
+    }
+    .Class .ClassInfo{
+        align-items: center;
+    }
+    .ClassInfo .ClassAbout{
+        width: 65%;
+        height: 80px;
+    }
+    .ClassAbout h1{
+        height: 35px;
+        width: 84%;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    #Yoga .ClassAbout p{
+        height: 25px;
+        width: 57%;
+        font-size: 17px;
+        text-align: start;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #Aerobic .ClassAbout p{
+        height: 25px;
+        width: 57%;
+        font-size: 17px;
+        text-align: start;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #Cardio{
+        position: relative;
+        left:27%;
+        margin-top: 5%;
+    }
+    #Cardio .ClassAbout p{
+        height: 25px;
+        width: 57%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+    #Schedules{
+        height: 700px;
+        width: 100%;
+        margin-top: 15%;
+
+    }
+    #Schedules #SchedulesPara{
+        width: 55%;
+        height: 25px;
+        text-align: center;
+        font-size: 18px;
+        margin-left: 24%;
+    
+    }
+    #Schedules table{
+        width: 100%;
+        
+        position: relative;
+        left: 0;
+        
+    }
+    #Schedules table h1{
+        width: 45%;
+        font-size: 30px;
+    }
+
+    #Schedules table h4{
+       text-align: center;
+    }
+    #Schedules table p{
+        font-size: 15px;
+    }
+    #Schedules table th,tr{
+        height: 55px;
+    }
+    #Schedules table td{
+        padding: 10px;
+    }
+
+    
+
+    #Contact{
+        height: 950px;
+        width: 100%;
+    }
+    #Contact #ContactSection{
+        height: 700px;
+        width: 100%;
+    }
+    #ContactSection .ContactContainers{
+        width: 47%;
+        display: inline-block;
+
+    }
+    #ContactSection #ConConatainer1{
+        height: 560px;
+    }
+    #ContactSection #ConConatainer2{
+        height: 540px;
+    }
+    #Footer{
+        height: 100px;
+        display: flex;
+    }
+    #Footer #Copyright{
+        width: 50%;
+        height: 65px;
+    }
+    #Copyright p{
+        font-size: 22px;
+    }
+    #Footer #Mob{
+        height: 65px;
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+    }
+    #Mob span{
+        font-size: 20px;
+        margin-top: 2%;
+    }
+}
+/*? =========================================================== MIN-450px to Max-1024px[ LAPTOP ] ENDS ==================================================  */
+/*? =========================================================== MIN-1024px to Max-1350px[ LAPTOP-15inch] ENDS ==================================================  */
+@media (min-width:1024px) and (max-width:1350px){
+    header{
+        width: 100%;
+    }
+    header nav{
+        width: 65%;
+    }
+    header .Social-Icons{
+        width: 15%;
+    }
+    #AppLogo{
+        width:22%;
+        margin: 0 auto;
+        margin-left: 2%;
+    }
+    #AppLogo h1{
+        text-align: center;
+    }
+    #Home{
+        height: 1200px;
+    }
+   
+    #HomeContainer1{
+       height: 200px;
+    }
+
+    #HomeContainer1 #HomeBox1{
+        height: 300px;
+        width: 55%;
+        position: relative;
+        top: 0;
+        margin-top: -2%;
+        display: flex;
+    }
+    .HomeBox1Content p{
+        width: 100%;
+        font-size: 30px;
+        width: 100%;
+    }
+    .HomeBox1Content h1{
+        font-size: 35px;
+        margin-top: 5%;
+    }
+
+    .HomeBox1Content input{
+        margin-top: 5%;
+        width: 45%;
+    }
+    #HomeContainer2Box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        width: 55%;
+    }
+    #HomeContainer2Box1 h1{
+        width: 92%;
+        font-size: 35px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 h5{
+        width: 92%;
+        font-size: 27px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 p{
+        width: 92%;
+        font-size: 24px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2Box1 button{
+        width: 92%;
+        font-size: 13px;
+        position: relative;
+        left: 0;
+    }
+    #HomeContainer2 #HomeContainer2Box2{
+        height: 270px;
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #HomeContainer2Box2 h1{
+        height: 55px;
+        width: 85%;
+        font-size: 34px;
+        position: relative;
+        left: 5%;
+    }
+    #HomeContainer2Box2 h4{
+        height: 35px;
+        width: 85%;
+        font-size: 20px;
+        position: relative;
+        left: 5%;
+    }
+    #HomeContainer2Box2 p{
+        height: 25px;
+        width: 85%;
+        font-size: 20px;
+        position: relative;
+        left: 5%;
+    }
+    #AboutUs{
+        height: 650px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #AboutUs #AboutUsBox1{
+        display: block;
+        width: 35%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #AboutUsBox1 h1{
+        width: 96%;
+        height: 35px;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        left: 0;
+    }
+    #AboutUsBox1 p{
+        width: 96%;
+        height: 100px;
+        font-size: 17px;
+        text-align: center;
+        position: relative;
+        left: 0;
+    }
+    #AboutUs .AboutUsBoxes{
+        height: 400px;
+        width: 27%;
+    }
+
+    #AboutUsBox2 .AboutUsBoxImages{
+        background-position: top center;
+        height: 250px;
+    }
+    #AboutUsBox3 .AboutUsBoxImages{
+        background-position: top center;
+
+        height: 250px;
+    }
+
+    .AboutUsBoxes .AboutUsBoxContent{
+        height: 100px;
+    }
+    #Classes{
+        height: 650px;
+    }
+
+    #Classes p{
+        font-size: 24px;
+        width: 100%;
+        position: relative;
+        top: 3%;
+        left: 0;
+        text-align: center;
+    }
+    #Classes h1{
+        font-size: 29px;
+        width: 100%;
+        position: relative;
+        top: 4%;
+        left: 0;
+        text-align: center;
+    }
+    #Classes .Training{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        top: 5%;
+
+    }
+    .Training .Class{
+        height: 435px;
+        width: 27%;
+    }
+    .Class .ClassImg{
+        height: 280px;
+        background-position: top center;
+    }
+    .Class .ClassInfo{
+        align-items: center;
+    }
+    .ClassInfo .ClassAbout{
+        width: 70%;
+    }
+   
+    #Yoga .ClassAbout h1{
+        width: 65%;
+    }
+    #Yoga .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 7%;
+    }
+    #Aerobic .ClassAbout h1{
+        width: 65%;
+    }
+    #Aerobic .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 7%;
+    }
+    #Cardio .ClassAbout h1{
+        width: 65%;
+    }
+    
+    #Cardio .ClassAbout p{
+        height: 25px;
+        width: 40%;
+        font-size: 15px;
+        text-align: start;
+        margin-left: 7%;
+    }
+    .Training .ClassContent p{
+        font-size: 18px !important;
+    }
+    #Schedules{
+        height: 700px;
+        width: 100%;
+        margin-top: 4%;
+
+    }
+    #Schedules #SchedulesPara{
+        width: 55%;
+        height: 25px;
+        text-align: center;
+        font-size: 24px;
+        margin-left: 24%;
+    
+    }
+    #Schedules table{
+        height: 400px;
+        width: 100%;
+    }
+    #Schedules table h1{
+        width: 35%;
+        font-size: 30px;
+    }
+
+    #Schedules table h4{
+       text-align: center;
+    }
+    #Schedules table p{
+        font-size: 17px;
+    }
+    #Schedules table th,tr{
+        height: 55px;
+    }
+    #Schedules table td{
+        padding: 10px;
+    }
+
+
+    #Contact{
+        height: 800px;
+        width: 100%;
+    }
+    #Contact #ContactSection{
+        height: 800px;
+        width: 100%;  
+    }
+    #ContactSection .ContactContainers{
+        width: 45%;
+        display: inline-block;
+    }
+    #ContactSection #ConConatainer1{
+        height: 560px;
+    }
+    #ContactSection #ConConatainer2{
+        height: 540px;
+    }
+    #Footer{
+        height: 200px;
+        display: flex;
+    }
+    #Footer #Copyright{
+        width: 43%;
+        height: 90px;
+    }
+    #Copyright p{
+        font-size: 24px;
+    }
+    #Footer #Mob{
+        height: 40px;
+        width: 43%;
+    }
+    #Mob span{
+        font-size: 24px;
+        margin-top: 2%;
+    }
+}/*? =========================================================== MIN-1024px to Max-1350px[ LAPTOP-15inch ] ENDS ==================================================  */
+
+
+/*
+/*! ***************************************************************** RESPONSIVE ENDS ***********************************************************  */
